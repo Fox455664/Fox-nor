@@ -1,7 +1,7 @@
 # متطلبات التنصيب #
 OWNER = ["F_o_x_5"]
 OWNER_NAME = "F_o_x_5"
-BOT_TOKEN = "7002439220:AAGEKskizmJ9W9l83hiaSuf6LfxmWV3oLio"
+BOT_TOKEN = "7107627916:AAFRd85PmDe8QB5jraXSFdxsaXtca88JCq4"
 DATABASE = "mongodb+srv://Elkber:Elkber@cluster0.feuljpn.mongodb.net/?retryWrites=true&w=majority"
 CHANNEL = "https://t.me/U0_Ux"
 GROUP = "https://t.me/U0_UG"
