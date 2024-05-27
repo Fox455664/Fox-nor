@@ -1,7 +1,7 @@
 {
     "name": "Yukki Music Bot",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
+    "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png", // تأكد من أن الرابط صحيح
     "keywords": [
         "python3",
         "telegram",
@@ -15,17 +15,17 @@
     "env": {
         "BOT_TOKEN": {
             "description": "The Telegram bot token provided by BotFather",
-            "value": "your_bot_token_here",
+            "value": "", // يجب إدخال القيمة هنا
             "required": true
         },
         "SESSION_NAME": {
             "description": "The session name for your bot, usually the bot username",
-            "value": "your_session_name_here",
+            "value": "", // يجب إدخال القيمة هنا
             "required": true
         },
         "SESSION_NAME2": {
             "description": "An optional secondary session name for your bot",
-            "value": "your_optional_session_name_here",
+            "value": "", // يمكن تركها فارغة إذا كانت غير مطلوبة
             "required": false
         }
     },
@@ -41,8 +41,9 @@
         }
     ],
     "formation": {
-    "worker": {
-        "quantity": 1,
-        "size": "eco"
+        "worker": {
+            "quantity": 1,
+            "size": "eco" // تحديث حجم الدينو ليتوافق مع خطتك
+        }
     }
 }
