@@ -1,0 +1,10 @@
+import pytz
+from datetime import datetime
+
+# تعيين المنطقة الزمنية للقاهرة
+cairo_timezone = pytz.timezone('Africa/Cairo')
+
+# الحصول على الوقت الحالي في المنطقة الزمنية المحددة
+cairo_time = datetime.now(cairo_timezone)
+
+print("الوقت الحالي في القاهرة:", cairo_time.strftime('%Y-%m-%d %H:%M:%S'))
