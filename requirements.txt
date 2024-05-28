@@ -18,13 +18,12 @@ pillow
 heroku3
 psutil
 future
-wget
 speedtest-cli
 motor
 pyromod~=1.5
 googletrans
 pytz
-python3 -m pip install --upgrade pip
 
+# أوامر لتحديث pip والمكتبات
+pip install --upgrade pip
 pip install --upgrade -r requirements.txt
-
