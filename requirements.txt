@@ -25,5 +25,5 @@ googletrans
 pytz
 
 # أوامر لتحديث pip والمكتبات
-pip install --upgrade pip
-pip install --upgrade -r requirements.txt
+pipinstall --upgrade pip
+pipinstall --upgrade -r requirements.txt
