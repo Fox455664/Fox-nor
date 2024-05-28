@@ -10,7 +10,7 @@
         "YukkiMusicBot",
         "telegram-bot",
         "pyrogram"
-    ],
+    ]
     "stack": "container",
     "env": {
         "BOT_TOKEN": {
@@ -47,4 +47,4 @@
         }
     },
     "stack": "container"
-}
+    
