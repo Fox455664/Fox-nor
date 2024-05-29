@@ -15,7 +15,7 @@
     "env": {
         "BOT_TOKEN": {
             "description": "الرمز الخاص بالبوت من BotFather للتحكم في البوت عبر API تليجرام.",
-            "value": "",
+            "value": "YOUR_BOT_TOKEN_HERE",
             "required": true
         },
         "SESSION_NAME2": {
@@ -25,7 +25,7 @@
         },
         "SESSION_NAME": {
             "description": "اسم الجلسة الرئيسية للبوت، مطلوب للاتصال بAPI تليجرام.",
-            "value": "",
+            "value": "YOUR_SESSION_NAME_HERE",
             "required": true
         }
     },
