@@ -213,8 +213,8 @@ async def stratmaked(client, message):
     kep = ReplyKeyboardMarkup([
 ["حذف بوت", "صنع بوت"],
 ["حول السورس", "استخراج جلسه"]],resize_keyboard=True)
-    await message.reply_text(f **👋🏻 ꒐  هلاً بك {message.from_user.mention}  💎 .\n🤖 ꒐ في صانع ميوزك بوما  ✯ .**", reply_markup=kep,quote=True)
-    
+    await message.reply_text(f"👋🏻 ꒐ هلاً بك {message.from_user.mention} 💎 .\n🤖 ꒐ في صانع ميوزك بوما ✯ .", reply_markup=kep, quote=True)
+
 @app.on_message(
     filters.command(["/"U0_Ux'", "معلومات", "سورس", "السورس", "• السورس •"], "")
 )
