@@ -193,7 +193,7 @@ async def stratmaked(client, message):
     return
   if OFF:
       if not message.chat.username in OWNER:
-         return await message.reply_text(f"**♪ الوضع المجاني معطل الان  💎 .\n♪ راسل المطور لتنصيب مدفوع  🦉 ? .\n♪ ᦔꫀ𝚅  @{F_o_x_5}? .**")
+         return await message.reply_text(f"**♪ الوضع المجاني معطل الان  💎 .\n♪ راسل المطور لتنصيب مدفوع  💎 .\n♪ ᦔꫀ𝚅 :@[F_o_x_5]}}  💎 .**")
   if message.chat.username in OWNER:
     kep = ReplyKeyboardMarkup([
 ["استخراج جلسه","تحديث الصانع"],
