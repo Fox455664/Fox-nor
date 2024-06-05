@@ -72,15 +72,15 @@ async def auto_bot():
         except:
            pass
         try:
-          await user.join_chat("Տꪮ𝚄𝘳ᥴꫀ_Ꮲ𝚄ꪔᥲ")
+          await user.join_chat("Տꪮ𝚄𝘳ᥴꫀ_fox")
         except:
           pass
         try:
-          await user.join_chat("U0_UG")
+          await user.join_chat("fox345645")
         except:
           pass
         try:
-          await user.join_chat("U0_Ux")
+          await user.join_chat("gfffffftfff")
         except:
           pass
       except Exception as e:
@@ -216,7 +216,8 @@ async def stratmaked(client, message):
     await message.reply_text(f"👋🏻 ꒐ هلاً بك {message.from_user.mention} 💎 .\n🤖 ꒐ في صانع ميوزك بوما ✯ .", reply_markup=kep, quote=True)
 
 @app.on_message(
-    filters.command(["/"U0_Ux'", "معلومات", "سورس", "السورس", "• السورس •"], "")
+    filters.command(["F_o_x_5", "معلومات", "سورس", "السورس", "• السورس •"], "")
+
 )
 async def alive(client: Client, message):
     chat_id = message.chat.id
