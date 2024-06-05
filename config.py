@@ -1,4 +1,4 @@
-import os
+yimport os
 from os import getenv
 from dotenv import load_dotenv
 from OWNER import BOT_TOKEN, OWNER, OWNER_NAME, DATABASE, CHANNEL, GROUP, LOGS, VIDEO
@@ -19,8 +19,8 @@ helper = {}
 
 
 
-API_ID = int(getenv("API_ID", "25655555"))
-API_HASH = getenv("API_HASH", "57b330d11c2e758e6e3514ffc586bad5")
+API_ID = int(getenv("API_ID", "25761783"))
+API_HASH = getenv("API_HASH", "7770de22ee036afb30a99d449c51f4b8")
 BOT_TOKEN = BOT_TOKEN
 MONGO_DB_URL = DATABASE
 OWNER = OWNER
