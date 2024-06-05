@@ -1,4 +1,4 @@
-yimport os
+import os
 from os import getenv
 from dotenv import load_dotenv
 from OWNER import BOT_TOKEN, OWNER, OWNER_NAME, DATABASE, CHANNEL, GROUP, LOGS, VIDEO
