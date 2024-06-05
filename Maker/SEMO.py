@@ -274,7 +274,7 @@ async def cloner(app: app, message):
       return
     if OFF:
       if not message.chat.username in OWNER:
-         return await message.reply_text(f"**♪ الوضع المجاني معطل الان  💎 .\n♪ راسل المطور لتنصيب مدفوع  💎 .\n♪ ᦔꫀ𝚅 :@[F_o_x_5]}  💎 .**")
+         return await message.reply_text(f"**♪ الوضع المجاني معطل الان  💎 .\n♪ راسل المطور لتنصيب مدفوع  💎 .\n♪ ᦔꫀ𝚅 :@{{F_o_x_5}}  💎 .**")
     user_id = message.chat.id
     tokenn = await app.ask(chat_id=user_id, text="**♪ ارسل الان توكن البوت  💎 .**", timeout=200)
     token = tokenn.text
