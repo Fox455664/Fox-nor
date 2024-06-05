@@ -193,7 +193,7 @@ async def stratmaked(client, message):
     return
   if OFF:
       if not message.chat.username in OWNER:
-         return await message.reply_text(f"**♪ الوضع المجاني معطل الان  💎 .\n♪ راسل المطور لتنصيب مدفوع  🦉 ? .\n♪ ᦔꫀ𝚅  @{Ux_Uv}? .**")
+         return await message.reply_text(f"**♪ الوضع المجاني معطل الان  💎 .\n♪ راسل المطور لتنصيب مدفوع  🦉 ? .\n♪ ᦔꫀ𝚅  @{F_o_x_5}? .**")
   if message.chat.username in OWNER:
     kep = ReplyKeyboardMarkup([
 ["استخراج جلسه","تحديث الصانع"],
@@ -216,7 +216,7 @@ async def stratmaked(client, message):
     await message.reply_text(f"👋🏻 ꒐ هلاً بك {message.from_user.mention} 💎 .\n🤖 ꒐ في صانع ميوزك بوما ✯ .", reply_markup=kep, quote=True)
 
 @app.on_message(
-    filters.command(["F_o_x_5", "معلومات", "سورس", "السورس", "• السورس •"], "")
+    filters.command(["t.me/F_o_x_5", "معلومات", "سورس", "السورس", "• السورس •"], "")
 
 )
 async def alive(client: Client, message):
@@ -239,8 +239,8 @@ async def alive(client: Client, message):
     )
 
     alive = f"""╭──── • ◈ • ────╮
-么 🦉⦅𖢿Տꪮ𝚄𝘳ᥴꫀ𖢿⦆(t.me/U0_Ux) ✯ .
-么  🦉⦅𖢿ᦔꫀ𝚅𖢿⦆(t.me/Ux_Uv) ✯ .
+么 🦉⦅𖢿Տꪮ𝚄𝘳ᥴꫀ𖢿⦆(t.me/fox345645) ✯ .
+么  🦉⦅𖢿ᦔꫀ𝚅𖢿⦆(t.me/F_o_x_5) ✯ .
 ╰──── • ◈ • ────╯
 🚦 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾?? 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼  ✯ ."""
 
@@ -274,7 +274,7 @@ async def cloner(app: app, message):
       return
     if OFF:
       if not message.chat.username in OWNER:
-         return await message.reply_text(f"**♪ الوضع المجاني معطل الان  💎 .\n♪ راسل المطور لتنصيب مدفوع  💎 .\n♪ ᦔꫀ𝚅 :@[Ux_Uv]}  💎 .**")
+         return await message.reply_text(f"**♪ الوضع المجاني معطل الان  💎 .\n♪ راسل المطور لتنصيب مدفوع  💎 .\n♪ ᦔꫀ𝚅 :@[F_o_x_5]}  💎 .**")
     user_id = message.chat.id
     tokenn = await app.ask(chat_id=user_id, text="**♪ ارسل الان توكن البوت  💎 .**", timeout=200)
     token = tokenn.text
@@ -336,7 +336,7 @@ async def delbot(client: app, message):
     return
   if OFF:
       if not message.chat.username in OWNER:
-         return await message.reply_text(f"**الصانع معطل حالياً تواصل مع المطور لتنصيب بوتك \n ᦔꫀ𝚅   : @{Ux_Uv}**")
+         return await message.reply_text(f"**الصانع معطل حالياً تواصل مع المطور لتنصيب بوتك \n ᦔꫀ𝚅   : @{F_o_x_5}**")
   if message.chat.username in OWNER:
    ask = await client.ask(message.chat.id, "**♪ ارسل الان يوزر البوت  💎 .**", timeout=200)
    bot_username = ask.text
@@ -396,7 +396,7 @@ async def delbot(client: app, message):
      Bots.delete_one(dev)
      await message.reply_text("**♪ تم حذف بوتك بنجاح  💎 .**")
     except:
-     await message.reply_text("**♪ حدث خطأ ، تواصل مع المطور  💎 .\n♪ ᦔꫀ𝚅 : @{Ux_Uv}  💎 .**")
+     await message.reply_text("**♪ حدث خطأ ، تواصل مع المطور  💎 .\n♪ ᦔꫀ𝚅 : @{F_o_x_5}  💎 .**")
    
 
     
