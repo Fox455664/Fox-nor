@@ -24,6 +24,4 @@ pyromod~=1.5
 googletrans
 pytz
 
-# أوامر لتحديث pip والمكتبات
-pipinstall--upgradepip
-pipinstall--upgrade-rrequirements.txt
+
